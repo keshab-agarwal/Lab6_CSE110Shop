@@ -117,7 +117,7 @@ class ProductItem extends HTMLElement {
     para1.setAttribute("class", "title");
     para1.innerHTML = item.title;
     para2.setAttribute("class", "price");
-    para2.innerHTML = item.price;
+    para2.innerHTML = "$"+item.price;
     para1.setAttribute("class", "title");
     li.appendChild(img);
     li.appendChild(para1);
